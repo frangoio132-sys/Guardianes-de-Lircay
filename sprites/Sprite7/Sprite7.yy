@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"Terreno",
+    "path":"folders/Assets/Terreno.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

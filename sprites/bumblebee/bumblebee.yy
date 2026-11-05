@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"Assets Enemigos",
+    "path":"folders/Assets/Assets Enemigos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

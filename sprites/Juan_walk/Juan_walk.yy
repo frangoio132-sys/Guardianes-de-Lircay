@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Assets",
-    "path":"folders/Assets.yy",
+    "name":"AssetsJuan",
+    "path":"folders/Assets/AssetsJuan.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
