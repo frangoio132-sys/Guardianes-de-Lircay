@@ -1,0 +1,197 @@
+
+
+gravedad = 0.4
+vel_y = 0.0
+max_vel_y = 15
+vel_x = 0
+floor_friction = 1
+air_friction  = 0.01
+air_SPEED = 9
+floor_SPEED = 2
+
+key_right =  (keyboard_check(vk_right) or keyboard_check(ord("D")))
+key_left  =  (keyboard_check(vk_left) or keyboard_check(ord("A")))
+
+directionx = key_right - key_left
+
+key_up =  (keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space))
+key_down  =  (keyboard_check(vk_down) or keyboard_check(ord("S")))
+
+is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
+
+directiony = key_down - key_up
+
+
+Aplicar_gravedad = function(){
+	 if place_meeting(x, y+vel_y, Obj_wall) { 
+		// aaskjd
+		while (!place_meeting(x, y+sign(vel_y), Obj_wall)){
+			y+= sign(vel_y)
+		}
+		vel_y = 0
+
+	}else{ //si esta en el aire
+	
+		y += vel_y
+		if max_vel_y > vel_y{ 
+			vel_y += gravedad
+		}
+	
+	}
+}
+	
+Aplicar_vuelo = function(){
+	if place_meeting(x, y+vel_y, Obj_wall){ 
+		// aaskjd
+		while (!place_meeting(x, y+sign(vel_y), Obj_wall)){
+			y+= sign(vel_y)
+		}
+		vel_y = 0
+
+	}else{ //si esta en el aire
+	
+		y += vel_y
+		if directiony > 0{	
+			// esto pone  un limite para que no caiga demasiado rapido
+			if max_vel_y > vel_y{ 
+				vel_y += gravedad
+			}
+		}else if directiony == 0{
+			vel_y = lerp(vel_y, 0.5, 0.1)
+		}
+	
+	}
+}
+	
+stateFree = function(){ // caninar y caer
+	Aplicar_gravedad();
+	if directionx != 0{ //moverse en x
+		image_xscale = directionx
+		if is_on_floor {
+			sprite_index = Juan_walk
+			vel_x = floor_SPEED*directionx
+			if place_meeting(x+directionx, y, Obj_wall) and !place_meeting(x+directionx, y-11, Obj_wall){
+					y -= 11
+			}
+		}
+	}else{
+		sprite_index = Juan_idle
+		if is_on_floor {
+			vel_x = lerp(vel_x, 0, 0.2)
+		}
+	}
+	
+	if (keyboard_check(vk_space) ){ // a volar
+
+		vel_y = lerp(vel_y, -1, 0.3)
+		sprite_index = Juan_fly
+		state = stateFly
+	}
+	
+	if mouse_check_button_pressed(1){ // a atacar
+		if is_on_floor {
+			image_index = 0
+			sprite_index = Juan_attack_1
+			state = stateAttack
+		}else{
+			image_index = 0
+			sprite_index = Juan_Air_attack
+			state = stateAirAttack
+		}
+	
+	}
+	
+}
+
+
+stateFly = function(){ //volar
+	Aplicar_vuelo();
+	if ( keyboard_check(vk_space) ){ //  moverse en y
+			vel_y = lerp(vel_y, -1.5, 0.1)
+		}
+	if directionx != 0{ // moverse en x
+		if vel_x != 0{
+			image_xscale = sign(vel_x)
+		}
+
+		vel_x = lerp(vel_x, air_SPEED*directionx, 0.03)
+
+	
+	}else{
+		vel_x -=  air_friction * sign(vel_x)
+
+	}
+	
+	if is_on_floor { // vuelve al stateFree
+		sprite_index = Juan_idle
+		state = stateFree
+	}
+	
+	if mouse_check_button_pressed(1){ // ataque
+		if directionx != 0{
+			image_xscale = sign(directionx)
+		}
+		image_index = 0
+		sprite_index = Juan_Air_attack
+		state = stateAirAttack
+	
+	}
+}
+	
+ stateAttack = function(){ // estos ataque voy a hacer que vuelvan al state free al terminar la animacion nomas
+	
+	Aplicar_gravedad()
+	vel_x = lerp(vel_x, 0, 0.1)
+	if mouse_check_button_pressed(1){
+		if is_on_floor{
+			if sprite_index == Juan_attack_1 {
+				if image_index > 3{
+					vel_x = 3 * directionx
+					if directionx != 0{
+						image_xscale = directionx
+					}
+					directionx = 0
+					image_index = 0
+					sprite_index = Juan_attack_2
+				}
+			}
+			else if sprite_index == Juan_attack_2{
+				if image_index > 5{
+					if directionx != 0{
+						image_xscale = directionx
+					}
+					directionx = 0
+					image_index = 0
+					sprite_index = Juan_attack_1
+				}
+			}
+			else{
+				directionx = 0
+				image_index = 0
+				sprite_index = Juan_attack_1
+			}
+	
+		}
+	}else{
+		if sprite_index != Juan_attack_1 and sprite_index != Juan_attack_2{// tengo que revisar que no estee atacando pero lo hare despues
+			image_index = 0
+			sprite_index = Juan_Air_attack
+			state = stateAirAttack
+		}
+	}
+
+}
+
+stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
+	Aplicar_vuelo()
+	if is_on_floor{
+		vel_x = 0
+		sprite_index = Juan_Landing_air_attack
+	}
+}
+
+stateHit = function(){
+	Aplicar_gravedad()
+}
+state =  stateFree
+
