@@ -9,7 +9,10 @@
     "name":"Tiles",
     "path":"folders/Tiles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"Sprite2",
+    "path":"sprites/Sprite2/Sprite2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
