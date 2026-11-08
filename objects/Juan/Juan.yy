@@ -10,8 +10,8 @@
   "name":"Juan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Juan",
+    "path":"folders/Objetos/Protagonistas/Juan.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"Avejorro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Npcs",
+    "path":"folders/Objetos/Npcs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

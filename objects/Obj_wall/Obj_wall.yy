@@ -6,8 +6,8 @@
   "name":"Obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"TerrenoPantano",
+    "path":"folders/Objetos/TerrenoPantano.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite2",
     "path":"sprites/Sprite2/Sprite2.yy",

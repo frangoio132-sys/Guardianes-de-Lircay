@@ -6,8 +6,8 @@
   "name":"Agua",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"TerrenoPantano",
+    "path":"folders/Objetos/TerrenoPantano.yy",
   },
   "parentObjectId":null,
   "persistent":false,

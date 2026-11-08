@@ -6,8 +6,8 @@
   "name":"colect",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Coleccionable",
+    "path":"folders/Objetos/Coleccionable.yy",
   },
   "parentObjectId":null,
   "persistent":false,
