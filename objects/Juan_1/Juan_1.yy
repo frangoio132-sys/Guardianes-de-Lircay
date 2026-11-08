@@ -35,6 +35,9 @@
     "name":"Juan_idle",
     "path":"sprites/Juan_idle/Juan_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Juan_idle",
+    "path":"sprites/Juan_idle/Juan_idle.yy",
+  },
   "visible":true,
 }

@@ -110,6 +110,11 @@ stateFly = function(){ //volar
 			vel_y = lerp(vel_y, -1.5, 0.1)
 		}
 	if directionx != 0{ // moverse en x
+		if sign(directionx) == sign(image_xscale){
+			sprite_index = Juan_fly_front
+		}else{
+			sprite_index = Juan_fly_back
+		}
 		if vel_x != 0{
 			image_xscale = sign(vel_x)
 		}
@@ -118,6 +123,7 @@ stateFly = function(){ //volar
 
 	
 	}else{
+		sprite_index = Juan_fly
 		vel_x -=  air_friction * sign(vel_x)
 
 	}
