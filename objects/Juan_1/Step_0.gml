@@ -27,4 +27,3 @@ move_and_collide(vel_x, 0, Obj_wall) // esta cosa solo actualiza el movimiento e
 
 
 
-
