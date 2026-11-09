@@ -84,8 +84,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
