@@ -30,11 +30,13 @@ stateRoam = function(){
 	
 }
 
-Get_Hit = function(stunFrames, hitter){
-	if (stunFrames  > 0){
-		stunFrames = 0
+Get_Hit = function(){
+	alarm_set(0, 15)
+	vida--
+	vel_y = -7
+	if (0  >= vida ){
+		instance_destroy()
 	}
-	alarm_set(0, stunFrames)
 	state = stateHit
 }
 

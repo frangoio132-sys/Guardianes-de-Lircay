@@ -55,6 +55,7 @@
     {"id":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
     {"id":{"name":"bumblebee","path":"sprites/bumblebee/bumblebee.yy",},},
     {"id":{"name":"Colision_Hugo","path":"sprites/Colision_Hugo/Colision_Hugo.yy",},},
+    {"id":{"name":"Fondo","path":"sprites/Fondo/Fondo.yy",},},
     {"id":{"name":"HugoRun","path":"sprites/HugoRun/HugoRun.yy",},},
     {"id":{"name":"HugoStand","path":"sprites/HugoStand/HugoStand.yy",},},
     {"id":{"name":"Juan_Air_attack","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},},
