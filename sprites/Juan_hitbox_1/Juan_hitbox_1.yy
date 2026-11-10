@@ -28,7 +28,7 @@
   ],
   "name":"Juan_hitbox_1",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Juan's_hitboxes",
     "path":"folders/Objetos/Hitboxes/Juan's_hitboxes.yy",
@@ -96,7 +96,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":64,
+    "yorigin":96,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -1,4 +1,14 @@
 
+
+gravedad = 0.4
+vel_y = 0.0
+max_vel_y = 15
+vel_x = 0
+floor_friction = 1
+air_friction  = 0.01
+air_SPEED = 9
+floor_SPEED = 2
+
 key_right =  (keyboard_check(vk_right) or keyboard_check(ord("D")))
 key_left  =  (keyboard_check(vk_left) or keyboard_check(ord("A")))
 
@@ -11,19 +21,6 @@ is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
 
 directiony = key_down - key_up
 
+flying = false
 
-// cuando termine el state machine aqui ira todo lo que dabe correse siempre
-
-state();
-
-// gravedad, recibir daño, colisiones
-
-
-//este if detecta si esque el personaje va a colisionar con un "wall" en el siguiente frame (solo en el eje y)
-
-
-
-move_and_collide(vel_x, 0, Obj_wall) // esta cosa solo actualiza el movimiento en el eje x
-
-
-
+is_attacking = false
