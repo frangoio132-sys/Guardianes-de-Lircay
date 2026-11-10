@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Juan's_hitboxes",
-    "path":"folders/Objetos/Hitboxes/Juan's_hitboxes.yy",
+    "path":"folders/Objetos/Protagonistas/Juan/Juan's_hitboxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"Juan's_hitboxes",
-    "path":"folders/Objetos/Hitboxes/Juan's_hitboxes.yy",
+    "path":"folders/Objetos/Protagonistas/Juan/Juan's_hitboxes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

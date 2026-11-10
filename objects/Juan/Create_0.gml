@@ -21,6 +21,12 @@ is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
 
 directiony = key_down - key_up
 
+Get_Hit = function(){
+	image_index = 0
+	sprite_index = Juan_Hit
+	alarm_set(0, 10)
+	state = stateHit
+}
 
 Aplicar_gravedad = function(){
 	 if place_meeting(x, y+vel_y, Obj_wall) { 

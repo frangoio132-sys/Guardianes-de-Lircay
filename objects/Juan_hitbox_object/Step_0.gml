@@ -17,7 +17,7 @@ if (golpes > 0){
 			ds_list_add(golpeados, hitID)
 			with(hitID){
 				Get_Hit()
-				
+				vel_x = 4* (x-other.x)/point_distance(x, y, other.x, other.y)
 			}
 		}
 		
