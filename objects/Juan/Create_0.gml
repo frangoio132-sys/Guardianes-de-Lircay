@@ -76,8 +76,9 @@ Attack_1 = function(){
 	directionx = 0
 	image_index = 0
 	sprite_index = Juan_attack_1
-	with (instance_create_layer(x, y, "Instances", Juan_hitbox_object)){
+	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
+		target = Tijereta
 		sprite_index = Juan_hitbox_1
 		image_xscale = other.image_xscale
 						
@@ -92,8 +93,9 @@ Attack_2= function(){
 	directionx = 0
 	image_index = 0
 	sprite_index = Juan_attack_2
-	with (instance_create_layer(x, y, "Instances", Juan_hitbox_object)){
+	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
+		target = Tijereta
 		sprite_index = Juan_hitbox_2
 		image_xscale = other.image_xscale
 						
@@ -108,8 +110,9 @@ Attack_air = function(){
 	directionx = 0
 	image_index = 0
 	sprite_index = Juan_Air_attack
-	with (instance_create_layer(x, y, "Instances", Juan_hitbox_object)){
+	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
+		target = Tijereta
 		sprite_index = Juan_hitbox_air_attack
 		image_xscale = other.image_xscale
 						

@@ -5,7 +5,8 @@ if (owner.state == owner.stateHit){
 }
 
 var golpeadosEnFrame = ds_list_create()
-var golpes = instance_place_list(x, y, Tijereta, golpeadosEnFrame, false)
+var golpes = instance_place_list(x, y, target, golpeadosEnFrame, false)
+
 if (golpes > 0){
 	
 	for (var i = 0; golpes > i;i++){

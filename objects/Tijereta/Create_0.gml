@@ -4,7 +4,8 @@ gravedad = 0.4
 vel_y = 0.0
 max_vel_y = 15
 vel_x = 1
-
+var guard_timer = 90
+var attack_timer = 30
 
 Aplicar_gravedad = function(){
 	 if place_meeting(x, y+vel_y, Obj_wall) { 
@@ -23,7 +24,18 @@ Aplicar_gravedad = function(){
 	}
 	
 }
-
+Ataque = function(){
+	image_index = 0
+	sprite_index = tijereta_attack
+	with (instance_create_layer(x, y, "Instances", hitbox_object)){
+		owner = other.id
+		target = Juan
+		sprite_index = tijereta_attack_hitbox
+		image_xscale = other.image_xscale
+						
+	}
+	state = stateAttack
+}
 stateHit = function(){
 	Aplicar_gravedad()
 	if !place_meeting(x+vel_x, y, Obj_wall){
@@ -62,13 +74,36 @@ stateRoam = function(){
 }
 stateGuard = function(){
 	Aplicar_gravedad()
+	image_xscale = sign(x-target.x)
+	
 	if !(300 > abs(x-target.x) and 80 > abs(y-target.y)){
+		guard_timer--
 		image_index = 0
 		sprite_index = tijereta_idle
-		state = stateRoam
+		if (0 > guard_timer){
+			
+			state = stateRoam
+		}
+	}else{
+		guard_timer = 90
+		sprite_index = tijereta_guardia
+	}
+	
+	if (40 > abs(x-target.x) and 30 > abs(y-target.y)){
+		attack_timer--
+		if (0 > attack_timer){
+			
+			Ataque()
+		}
+	}else{
+		attack_timer = 30
+		
 	}
 }
+stateAttack = function(){
+	Aplicar_gravedad()
 
+}
 Get_Hit = function(){
 	alarm_set(0, 15)
 	vida--
