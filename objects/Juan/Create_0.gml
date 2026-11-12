@@ -218,6 +218,7 @@ stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
 	Aplicar_vuelo()
 	if is_on_floor{
 		vel_x = 0
+		image_angle = 0
 		sprite_index = Juan_Landing_air_attack
 	}
 }

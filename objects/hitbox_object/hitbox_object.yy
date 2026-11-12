@@ -10,8 +10,8 @@
   "name":"hitbox_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Juan's_hitboxes",
-    "path":"folders/Objetos/Protagonistas/Juan/Juan's_hitboxes.yy",
+    "name":"BLANK GAME1",
+    "path":"BLANK GAME1.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

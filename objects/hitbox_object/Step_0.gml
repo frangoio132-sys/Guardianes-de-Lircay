@@ -1,8 +1,16 @@
-x = owner.x
-y = owner.y
-if (owner.state == owner.stateHit){
+
+
+if !instance_exists(owner){
 	instance_destroy()
+}else{
+	if (owner.state == owner.stateHit){
+		instance_destroy()
+	}
+	x = owner.x
+	y = owner.y
 }
+
+
 
 var golpeadosEnFrame = ds_list_create()
 var golpes = instance_place_list(x, y, target, golpeadosEnFrame, false)
