@@ -12,20 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"67c78046-6c5c-4aae-a273-4a818edaed90","name":"67c78046-6c5c-4aae-a273-4a818edaed90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f6a220ac-84ee-4e93-8221-afc48ec6ca54","name":"f6a220ac-84ee-4e93-8221-afc48ec6ca54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"2777c940-8262-49ef-b0e3-2a730a82f082","name":"2777c940-8262-49ef-b0e3-2a730a82f082","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d4697241-1024-4bfa-aa76-0dabb9461242","name":"d4697241-1024-4bfa-aa76-0dabb9461242","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"3636f908-0823-47a7-8c7b-24684bc829b1","name":"3636f908-0823-47a7-8c7b-24684bc829b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"ab4008e7-157d-4f40-ac20-aa1aead0ac97","name":"ab4008e7-157d-4f40-ac20-aa1aead0ac97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8e4ab583-a4a3-4da2-ae81-882f29d59ac6","name":"8e4ab583-a4a3-4da2-ae81-882f29d59ac6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c71d97f-ac1b-4766-91fb-099a697c7e8a","name":"8c71d97f-ac1b-4766-91fb-099a697c7e8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"802ed5ad-e9bc-4500-b6a1-bfc0bcd1e7bf","name":"802ed5ad-e9bc-4500-b6a1-bfc0bcd1e7bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4020a433-516c-4d6b-b6c4-12fadffab60f","name":"4020a433-516c-4d6b-b6c4-12fadffab60f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c1d7aa54-2a83-43b7-a5ff-6727e5ff3364","name":"c1d7aa54-2a83-43b7-a5ff-6727e5ff3364","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e99a8a3d-1e8c-47de-9325-631ced7f2e93","name":"e99a8a3d-1e8c-47de-9325-631ced7f2e93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9ef30d29-f767-48e7-9f4f-f6718bbc85bf","name":"9ef30d29-f767-48e7-9f4f-f6718bbc85bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b88475b5-3e55-46e0-905d-89723796cd9d","name":"b88475b5-3e55-46e0-905d-89723796cd9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dfc46512-9d4a-446a-899a-59961664e29e","name":"dfc46512-9d4a-446a-899a-59961664e29e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"09e739bc-5f34-4cd5-b543-51a6213a0fcd","blendMode":0,"displayName":"default","isLocked":false,"name":"09e739bc-5f34-4cd5-b543-51a6213a0fcd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3c9653b8-2418-4792-aee6-1761e08ce78f","blendMode":0,"displayName":"default","isLocked":false,"name":"3c9653b8-2418-4792-aee6-1761e08ce78f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Juan_Air_attack",
   "nineSlice":null,
@@ -55,7 +56,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":7.0,
+    "length":8.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -75,26 +76,29 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"67c78046-6c5c-4aae-a273-4a818edaed90","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e3f52dd4-6faf-4a89-bf45-1a064efd7b71","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c71d97f-ac1b-4766-91fb-099a697c7e8a","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cdb27f15-0ec7-41c4-b81f-dff4344118a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6a220ac-84ee-4e93-8221-afc48ec6ca54","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a8a465c6-5c69-4569-8d8d-2feb7a5f5ced","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"802ed5ad-e9bc-4500-b6a1-bfc0bcd1e7bf","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f3a0d761-a06b-4e31-8fa4-ca87b5c00043","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2777c940-8262-49ef-b0e3-2a730a82f082","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dec8581f-3c03-496a-8108-525258b305f9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4020a433-516c-4d6b-b6c4-12fadffab60f","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a8bd29b6-e02e-4f71-8de1-31bd709d2785","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4697241-1024-4bfa-aa76-0dabb9461242","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8900129c-9466-459a-a54b-5d0bbbfafdd7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1d7aa54-2a83-43b7-a5ff-6727e5ff3364","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"175332ea-c8e1-4794-b536-9042d0c1fe06","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3636f908-0823-47a7-8c7b-24684bc829b1","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"72ec8f02-5a03-40c2-a15f-0d0eafaebb1a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e99a8a3d-1e8c-47de-9325-631ced7f2e93","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"07eef3c6-e1d4-44a6-8df7-9754f2c2d12a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab4008e7-157d-4f40-ac20-aa1aead0ac97","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"aa4ff15f-0b7f-48fc-ac79-17f860472930","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ef30d29-f767-48e7-9f4f-f6718bbc85bf","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1458add0-b46d-4406-a590-a2fa3546d35b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e4ab583-a4a3-4da2-ae81-882f29d59ac6","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e8fb0ccc-8409-4910-beb4-56f719fe2237","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b88475b5-3e55-46e0-905d-89723796cd9d","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0e600c1f-9b24-45a9-b0bd-bd96dc115cfe","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dfc46512-9d4a-446a-899a-59961664e29e","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"79fc8ccc-acbf-4530-883d-cfad16f66ade","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

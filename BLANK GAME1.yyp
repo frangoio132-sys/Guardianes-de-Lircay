@@ -59,6 +59,8 @@
     {"id":{"name":"Colision_Hugo","path":"sprites/Colision_Hugo/Colision_Hugo.yy",},},
     {"id":{"name":"HugoRun","path":"sprites/HugoRun/HugoRun.yy",},},
     {"id":{"name":"HugoStand","path":"sprites/HugoStand/HugoStand.yy",},},
+    {"id":{"name":"Juan_Air_attack_side","path":"sprites/Juan_Air_attack_side/Juan_Air_attack_side.yy",},},
+    {"id":{"name":"Juan_Air_attack_up","path":"sprites/Juan_Air_attack_up/Juan_Air_attack_up.yy",},},
     {"id":{"name":"Juan_Air_attack","path":"sprites/Juan_Air_attack/Juan_Air_attack.yy",},},
     {"id":{"name":"Juan_attack_1","path":"sprites/Juan_attack_1/Juan_attack_1.yy",},},
     {"id":{"name":"Juan_attack_2","path":"sprites/Juan_attack_2/Juan_attack_2.yy",},},

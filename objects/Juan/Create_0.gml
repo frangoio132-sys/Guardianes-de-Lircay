@@ -107,12 +107,29 @@ Attack_air = function(){
 	if directionx != 0{
 		image_xscale = directionx
 	}
+	var dir = 0
 	directionx = 0
 	image_index = 0
-	sprite_index = Juan_Air_attack
+	if key_up{
+		dir = 180
+		sprite_index = Juan_Air_attack_up
+	}else if key_right{
+		dir = 90
+		sprite_index = Juan_Air_attack_side
+	}else if key_left{
+		dir = 270
+		sprite_index = Juan_Air_attack_side
+	}else if key_down{
+		sprite_index = Juan_Air_attack
+		dir = 0
+	}else{
+		sprite_index = Juan_Air_attack_side
+		dir = 90
+	}
 	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
 		target = Tijereta
+		image_angle = dir
 		sprite_index = Juan_hitbox_air_attack
 		image_xscale = other.image_xscale
 						
@@ -216,7 +233,7 @@ stateFly = function(){ //volar
 
 stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
 	Aplicar_vuelo()
-	if is_on_floor{
+	if is_on_floor and sprite_index != Juan_Air_attack_up{
 		vel_x = 0
 		image_angle = 0
 		sprite_index = Juan_Landing_air_attack

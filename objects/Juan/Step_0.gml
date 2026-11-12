@@ -4,7 +4,7 @@ key_left  =  (keyboard_check(vk_left) or keyboard_check(ord("A")))
 
 directionx = key_right - key_left
 
-key_up =  (keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space))
+key_up =  (keyboard_check(vk_up) or keyboard_check(ord("W")))
 key_down  =  (keyboard_check(vk_down) or keyboard_check(ord("S")))
 
 is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
