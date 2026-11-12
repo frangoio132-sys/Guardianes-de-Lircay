@@ -116,7 +116,7 @@ Attack_air = function(){
 	}else if key_right{
 		dir = 90
 		sprite_index = Juan_Air_attack_side
-	}else if key_left{
+	}else if key_left or image_xscale = -1{
 		dir = 270
 		sprite_index = Juan_Air_attack_side
 	}else if key_down{
