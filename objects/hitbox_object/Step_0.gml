@@ -1,5 +1,22 @@
 
 
+// logica solo para juan
+
+if owner.object_index == Juan{
+	if owner.is_on_floor {
+		if sprite_index == Juan_hitbox_air_attack{
+			sprite_index = Juan_hitbox_landing_attack
+		}else if image_angle == 90 or image_angle == 270{
+			if image_index > 2{
+				image_index -= 2
+			}
+			image_angle = 0
+			sprite_index = Juan_hitbox_1
+		}
+	}
+
+}
+
 if !instance_exists(owner){
 	instance_destroy()
 }else{

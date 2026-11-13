@@ -74,6 +74,7 @@
     {"id":{"name":"Juan_hitbox_1","path":"sprites/Juan_hitbox_1/Juan_hitbox_1.yy",},},
     {"id":{"name":"Juan_hitbox_2","path":"sprites/Juan_hitbox_2/Juan_hitbox_2.yy",},},
     {"id":{"name":"Juan_hitbox_air_attack","path":"sprites/Juan_hitbox_air_attack/Juan_hitbox_air_attack.yy",},},
+    {"id":{"name":"Juan_hitbox_landing_attack","path":"sprites/Juan_hitbox_landing_attack/Juan_hitbox_landing_attack.yy",},},
     {"id":{"name":"Juan_idle","path":"sprites/Juan_idle/Juan_idle.yy",},},
     {"id":{"name":"Juan_Landing_air_attack","path":"sprites/Juan_Landing_air_attack/Juan_Landing_air_attack.yy",},},
     {"id":{"name":"Juan_walk","path":"sprites/Juan_walk/Juan_walk.yy",},},

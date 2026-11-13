@@ -113,15 +113,15 @@ Attack_air = function(){
 	if key_up{
 		dir = 180
 		sprite_index = Juan_Air_attack_up
+	}else if key_down{
+		sprite_index = Juan_Air_attack
+		dir = 0
 	}else if key_right{
 		dir = 90
 		sprite_index = Juan_Air_attack_side
 	}else if key_left or image_xscale = -1{
 		dir = 270
 		sprite_index = Juan_Air_attack_side
-	}else if key_down{
-		sprite_index = Juan_Air_attack
-		dir = 0
 	}else{
 		sprite_index = Juan_Air_attack_side
 		dir = 90
@@ -210,6 +210,9 @@ stateFly = function(){ //volar
 	
 	Aplicar_gravedad()
 	vel_x = lerp(vel_x, 0, 0.1)
+	if place_meeting(x+directionx, y, Obj_wall) and !place_meeting(x+directionx, y-11, Obj_wall){
+		y -= 11
+	}
 	if mouse_check_button_pressed(1){
 		if is_on_floor{
 			if sprite_index == Juan_attack_1 {
@@ -222,8 +225,11 @@ stateFly = function(){ //volar
 				if image_index > 5{
 					Attack_1()
 				}
-			}
-			else{ // creo que este else esta de mas pero lo dejare porsiacaso
+			}else if sprite_index == Juan_Landing_air_attack{
+				if image_index > 5{
+					Attack_1()
+				}
+			}else{ // creo que este else esta de mas pero lo dejare porsiacaso
 				Attack_1()
 			}
 		}
@@ -233,10 +239,17 @@ stateFly = function(){ //volar
 
 stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
 	Aplicar_vuelo()
-	if is_on_floor and sprite_index != Juan_Air_attack_up{
-		vel_x = 0
-		image_angle = 0
-		sprite_index = Juan_Landing_air_attack
+	if is_on_floor {
+		if sprite_index == Juan_Air_attack{
+			sprite_index = Juan_Landing_air_attack
+			state = stateAttack
+		}else if sprite_index == Juan_Air_attack_side{
+			if image_index > 2{
+				image_index -= 2
+			}
+			sprite_index = Juan_attack_1
+			state = stateAttack
+		}
 	}
 }
 
