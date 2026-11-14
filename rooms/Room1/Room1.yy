@@ -226,7 +226,6 @@
     {"name":"inst_3C1311B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_59CC3EB0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_705A7FAD","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_31153621","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_4D59F022","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,

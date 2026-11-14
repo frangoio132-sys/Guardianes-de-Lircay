@@ -14,6 +14,7 @@
     {"$GMFolder":"","%Name":"Assets Enemigos","folderPath":"folders/Assets/Assets Enemigos.yy","name":"Assets Enemigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"AssetsJuan","folderPath":"folders/Assets/AssetsJuan.yy","name":"AssetsJuan","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"AssetsPantano","folderPath":"folders/Assets/AssetsPantano.yy","name":"AssetsPantano","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"AssetsHugo","folderPath":"folders/Assets/AssetsHugo.yy","name":"AssetsHugo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Assets/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Terreno","folderPath":"folders/Assets/Terreno.yy","name":"Terreno","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -98,8 +99,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
