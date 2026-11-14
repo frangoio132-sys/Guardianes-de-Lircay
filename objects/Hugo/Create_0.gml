@@ -1,6 +1,7 @@
 grav = 0.4;
 velY = 0.0
 maxVely = 15;
+saltos = 2;
 
 Gravedad = function(){
 	 if place_meeting(x, y+velY, Obj_Tiles) { 
