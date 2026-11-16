@@ -20,7 +20,7 @@ key_down  =  (keyboard_check(vk_down) or keyboard_check(ord("S")))
 is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
 
 directiony = key_down - key_up
-
+	
 Get_Hit = function(){
 	image_index = 0
 	sprite_index = Juan_Hit
@@ -137,6 +137,8 @@ Attack_air = function(){
 	state = stateAirAttack
 }
 	
+	
+	
 stateFree = function(){ // caninar y caer
 	Aplicar_gravedad();
 	if directionx != 0{ //moverse en x
@@ -244,8 +246,8 @@ stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
 			sprite_index = Juan_Landing_air_attack
 			state = stateAttack
 		}else if sprite_index == Juan_Air_attack_side{
-			if image_index > 2{
-				image_index -= 2
+			if image_index > 1{
+				image_index -= 1
 			}
 			sprite_index = Juan_attack_1
 			state = stateAttack
