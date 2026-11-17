@@ -4,8 +4,8 @@ gravedad = 0.4
 vel_y = 0.0
 max_vel_y = 15
 vel_x = 1
-var guard_timer = 90
-var attack_timer = 25
+guard_timer = 90
+attack_timer = 25
 
 Aplicar_gravedad = function(){
 	 if place_meeting(x, y+vel_y, Obj_wall) { 

@@ -1,4 +1,4 @@
-
+Menu_manager.Player = id
 
 gravedad = 0.4
 vel_y = 0.0
