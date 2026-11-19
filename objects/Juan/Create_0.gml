@@ -1,5 +1,3 @@
-Menu_manager.Player = id
-
 gravedad = 0.4
 vel_y = 0.0
 max_vel_y = 15
@@ -20,6 +18,9 @@ key_down  =  (keyboard_check(vk_down) or keyboard_check(ord("S")))
 is_on_floor = place_meeting(x, y+1, Obj_wall) and vel_y >= 0
 
 directiony = key_down - key_up
+	
+Pages = ds_list_create()
+ds_list_add(Pages, 0)
 	
 Get_Hit = function(){
 	image_index = 0

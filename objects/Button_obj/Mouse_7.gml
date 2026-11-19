@@ -14,4 +14,11 @@ switch button_id{
 		break;
 	case 3: // load button
 		Menu_manager.load()
+		break;
+	case 4: //siguiente pagina
+		Menu_manager.next_page()
+		break;
+	case 5: //pagina anterior
+		Menu_manager.last_page()
+		break;
 }

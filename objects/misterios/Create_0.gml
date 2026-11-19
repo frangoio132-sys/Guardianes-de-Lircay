@@ -16,8 +16,9 @@ near = function(){
 		}
 	}else{
 		//esta linea es la mas importante
-		// falta dibujar algo para que se ve bonito
-		draw_text_ext(x - camera_get_view_x(view_get_camera(0)) , y - camera_get_view_y(view_get_camera(0)), saying, 20, 210)
+		// falta dibujar algo para que se vea  bonito
+		var text_pos = 210 - min(210, string_length(ds_list_find_value(dialogue, dialogue_i))*9)
+		draw_text_ext(text_pos + x - camera_get_view_x(view_get_camera(0)) , 20 + y - camera_get_view_y(view_get_camera(0)), saying, 20, 210)
 		
 		if string_length(ds_list_find_value(dialogue, dialogue_i)) >= letter_i{
 			saying += string_char_at(ds_list_find_value(dialogue, dialogue_i), letter_i)
