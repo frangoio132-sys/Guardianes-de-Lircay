@@ -17,7 +17,6 @@
     {"$GMFolder":"","%Name":"AssetsPantano","folderPath":"folders/Assets/AssetsPantano.yy","name":"AssetsPantano","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Assets/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Terreno","folderPath":"folders/Assets/Terreno.yy","name":"Terreno","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Paginas del diario","folderPath":"folders/Paginas del diario.yy","name":"Paginas del diario","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Coleccionable","folderPath":"folders/Objetos/Coleccionable.yy","name":"Coleccionable","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Npcs","folderPath":"folders/Objetos/Npcs.yy","name":"Npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,6 +26,7 @@
     {"$GMFolder":"","%Name":"Juan","folderPath":"folders/Objetos/Protagonistas/Juan.yy","name":"Juan","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Juan's_hitboxes","folderPath":"folders/Objetos/Protagonistas/Juan/Juan's_hitboxes.yy","name":"Juan's_hitboxes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TerrenoPantano","folderPath":"folders/Objetos/TerrenoPantano.yy","name":"TerrenoPantano","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Paginas del diario","folderPath":"folders/Paginas del diario.yy","name":"Paginas del diario","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[
@@ -110,8 +110,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -3,6 +3,10 @@ velY = 0.0
 maxVely = 15;
 saltos = 2;
 
+Pages = ds_list_create()
+ds_list_add(Pages, 0)
+	
+
 Gravedad = function(){
 	 if place_meeting(x, y+velY, Obj_Tiles) { 
 	
