@@ -6,7 +6,8 @@ if state == stateFree {
 			Menu_manager.save(x, y)
 		}
 	}else if 50 > distance_to_object(misterios){
-		misterios.near()
+		instance_nearest(x, y, misterios).near()
+		
 	}
 
 }

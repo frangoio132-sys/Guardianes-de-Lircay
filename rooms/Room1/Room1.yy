@@ -205,6 +205,13 @@
     {"name":"inst_1864D5C4","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_103B435","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1BD714CF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_31153621","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_11DEBA15","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_70F288B8","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_26A09B5E","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_6B3664CC","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3C3DE151","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_A1D5957","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -406,7 +413,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":620.0,"y":1660.0,},
         {"$GMRInstance":"v4","%Name":"inst_6A5FF53E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A5FF53E","objectId":{"name":"Page","path":"objects/Page/Page.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Page","path":"objects/Page/Page.yy",},"propertyId":{"name":"Page_num","path":"objects/Page/Page.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":830.0,"y":1670.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":840.0,"y":1670.0,},
         {"$GMRInstance":"v4","%Name":"inst_5709BE1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5709BE1C","objectId":{"name":"Savep","path":"objects/Savep/Savep.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":690.0,"y":2720.0,},
         {"$GMRInstance":"v4","%Name":"inst_4CB9A23F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CB9A23F","objectId":{"name":"Savep","path":"objects/Savep/Savep.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":540.0,"y":1700.0,},
         {"$GMRInstance":"v4","%Name":"inst_7EC07490","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EC07490","objectId":{"name":"Tijereta","path":"objects/Tijereta/Tijereta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1980.0,"y":2320.0,},
