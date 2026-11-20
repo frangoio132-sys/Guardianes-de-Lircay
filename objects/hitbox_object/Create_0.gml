@@ -1,5 +1,5 @@
 owner = inst_59CC3EB0
-target = Avejorro
+targets = ds_list_create()
 golpeados =	ds_list_create()
 
 

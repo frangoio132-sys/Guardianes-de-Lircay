@@ -6,6 +6,14 @@ max_vel_y = 15
 vel_x = 1
 guard_timer = 90
 attack_timer = 25
+if instance_exists(Juan){
+	target = instance_find(Juan , 0)
+}
+if instance_exists(Hugo){
+	target = instance_find(Hugo , 0)
+}
+
+sprite_index = tijereta_walk
 
 Aplicar_gravedad = function(){
 	 if place_meeting(x, y+vel_y, Obj_wall) { 
@@ -29,7 +37,7 @@ Ataque = function(){
 	sprite_index = tijereta_attack
 	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
-		target = Juan
+		ds_list_add(targets, other.target)
 		sprite_index = tijereta_attack_hitbox
 		image_xscale = other.image_xscale
 						
@@ -58,6 +66,7 @@ stateRoam = function(){
 			vel_x = -vel_x
 		}
 	}
+	
 	if !place_meeting(x + 50 *sign(vel_x), y+15, Obj_wall){  //para que se de vuelta antes de que se caiga
 		vel_x = -vel_x
 	}
@@ -74,14 +83,16 @@ stateRoam = function(){
 }
 stateGuard = function(){
 	Aplicar_gravedad()
-	image_xscale = sign(x-target.x)
-	
+	if sign(x-target.x) != 0{
+		image_xscale = sign(x-target.x)
+	}
+	// cuando te alejas mucho, espera y vuelve a caminar
 	if !(300 > abs(x-target.x) and 80 > abs(y-target.y)){
 		guard_timer--
 		image_index = 0
 		sprite_index = tijereta_idle
 		if (0 > guard_timer){
-			
+			sprite_index = tijereta_walk
 			state = stateRoam
 		}
 	}else{

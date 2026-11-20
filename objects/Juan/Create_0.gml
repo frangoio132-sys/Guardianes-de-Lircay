@@ -22,6 +22,9 @@ directiony = key_down - key_up
 Pages = ds_list_create()
 ds_list_add(Pages, 0)
 	
+Enemies = ds_list_create()
+ds_list_add(Enemies, Tijereta, Avejorro)
+	
 Get_Hit = function(){
 	image_index = 0
 	sprite_index = Juan_Hit
@@ -79,7 +82,7 @@ Attack_1 = function(){
 	sprite_index = Juan_attack_1
 	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
-		target = Tijereta
+		targets = other.Enemies
 		sprite_index = Juan_hitbox_1
 		image_xscale = other.image_xscale
 						
@@ -96,7 +99,7 @@ Attack_2= function(){
 	sprite_index = Juan_attack_2
 	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
-		target = Tijereta
+		targets = other.Enemies
 		sprite_index = Juan_hitbox_2
 		image_xscale = other.image_xscale
 						
@@ -129,7 +132,7 @@ Attack_air = function(){
 	}
 	with (instance_create_layer(x, y, "Instances", hitbox_object)){
 		owner = other.id
-		target = Tijereta
+		targets = other.Enemies
 		image_angle = dir
 		sprite_index = Juan_hitbox_air_attack
 		image_xscale = other.image_xscale

@@ -2,6 +2,7 @@ paused = false
 dead = false
 won = false
 t_saved_positions = ds_list_create()
+a_saved_positions = ds_list_create()
 saved_posx = x
 saved_posy = y
 Player = 0
@@ -35,26 +36,42 @@ last_page = function(){
 
 save = function(xx, yy){
 	
-	ds_list_clear(t_saved_positions)
 	saved_posx = xx
 	saved_posy = yy
+	
+	ds_list_clear(t_saved_positions)
 	for (var i = 0; instance_number(Tijereta) > i;i++){
 		ds_list_add(t_saved_positions, {tx : instance_find(Tijereta, i).x, 
 										ty : instance_find(Tijereta, i).y})
 	}
+	ds_list_clear(a_saved_positions)
+	for (var i = 0; instance_number(Avejorro) > i;i++){
+		ds_list_add(a_saved_positions, {tx : instance_find(Avejorro, i).x, 
+										ty : instance_find(Avejorro, i).y})
+	}
+	
 }
 
 load = function(){
 	
+	// elimina todas las tijeretas y avejorros
 	instance_activate_all()
-	
 	for (var i = 0; instance_number(Tijereta) > i;i++){
 		instance_destroy(Tijereta)
-		
+	}
+	for (var i = 0; instance_number(Tijereta) > i;i++){
+		instance_destroy(Tijereta)
 	}
 	instance_deactivate_all(true)
+	
+	// reaparece al tijeretas y avejorros en sus pociciones guardadas
 	for (var i = 0; ds_list_size(t_saved_positions)> i;i++){
 		with instance_create_layer(ds_list_find_value(t_saved_positions, i).tx, ds_list_find_value(t_saved_positions, i).ty, "Instances", Tijereta) {
+			target = other.Player
+		}
+	}
+	for (var i = 0; ds_list_size(a_saved_positions)> i;i++){
+		with instance_create_layer(ds_list_find_value(a_saved_positions, i).tx, ds_list_find_value(a_saved_positions, i).ty, "Instances", Tijereta) {
 			target = other.Player
 		}
 	}
