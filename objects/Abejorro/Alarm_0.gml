@@ -1,1 +1,1 @@
-state = stateIdle
+state = stateFollow

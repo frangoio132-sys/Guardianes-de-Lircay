@@ -59,8 +59,8 @@ load = function(){
 	for (var i = 0; instance_number(Tijereta) > i;i++){
 		instance_destroy(Tijereta)
 	}
-	for (var i = 0; instance_number(Tijereta) > i;i++){
-		instance_destroy(Tijereta)
+	for (var i = 0; instance_number(Abejorro) > i;i++){
+		instance_destroy(Abejorro)
 	}
 	instance_deactivate_all(true)
 	
@@ -71,7 +71,7 @@ load = function(){
 		}
 	}
 	for (var i = 0; ds_list_size(a_saved_positions)> i;i++){
-		with instance_create_layer(ds_list_find_value(a_saved_positions, i).tx, ds_list_find_value(a_saved_positions, i).ty, "Instances", Tijereta) {
+		with instance_create_layer(ds_list_find_value(a_saved_positions, i).tx, ds_list_find_value(a_saved_positions, i).ty, "Instances", Abejorro) {
 			target = other.Player
 		}
 	}

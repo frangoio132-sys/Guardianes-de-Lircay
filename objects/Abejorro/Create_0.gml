@@ -6,6 +6,8 @@ vel_y = 0
 SPEED = 4
 attack_vel = 0
 attack_SPEED = 6
+attack_cooldown = 90
+cooldown_counter = attack_cooldown
 
 if instance_exists(Juan){
 	target = instance_find(Juan , 0)
@@ -56,8 +58,10 @@ stateFollow = function(){
 	}else vel_y = 0
 	
 	// revisar si esta posicionado para atacar
-	if 10 > abs(y-target.y) and  abs(x-target.x) > 100 {
+	cooldown_counter--
+	if 10 > abs(y-target.y) and  abs(x-target.x) > 100  and 0 >= cooldown_counter{
 		// atacar
+		cooldown_counter = attack_cooldown
 		image_index = 0
 		sprite_index = bumblebee_attack
 		attack_vel = attack_SPEED* sign(target.x-x)
