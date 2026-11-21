@@ -45,9 +45,9 @@ save = function(xx, yy){
 										ty : instance_find(Tijereta, i).y})
 	}
 	ds_list_clear(a_saved_positions)
-	for (var i = 0; instance_number(Avejorro) > i;i++){
-		ds_list_add(a_saved_positions, {tx : instance_find(Avejorro, i).x, 
-										ty : instance_find(Avejorro, i).y})
+	for (var i = 0; instance_number(Abejorro) > i;i++){
+		ds_list_add(a_saved_positions, {tx : instance_find(Abejorro, i).x, 
+										ty : instance_find(Abejorro, i).y})
 	}
 	
 }

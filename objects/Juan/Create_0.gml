@@ -23,7 +23,7 @@ Pages = ds_list_create()
 ds_list_add(Pages, 0)
 	
 Enemies = ds_list_create()
-ds_list_add(Enemies, Tijereta, Avejorro)
+ds_list_add(Enemies, Tijereta, Abejorro)
 	
 Get_Hit = function(){
 	image_index = 0
