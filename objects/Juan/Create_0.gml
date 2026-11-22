@@ -277,10 +277,13 @@ stateDead = function(){
 	if is_on_floor{
 		vel_x = lerp(vel_x, 0, 0.2)
 	}
-	if instance_place(x, y-30, Agua){
+	if instance_place(x, y-10, Agua){
 		vel_y = lerp(vel_y, -2, 0.2)
 	}else{
-		vel_y = lerp(vel_y, 0, 0.4)
+		if instance_place(x, y, Agua){
+			vel_y = lerp(vel_y, 0, 0.4)
+		}
+		
 	}
 	
 
