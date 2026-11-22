@@ -4,8 +4,8 @@
   "bboxMode":0,
   "bbox_bottom":79,
   "bbox_left":20,
-  "bbox_right":78,
-  "bbox_top":22,
+  "bbox_right":189,
+  "bbox_top":14,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -16,7 +16,7 @@
   ],
   "gridX":10,
   "gridY":10,
-  "height":100,
+  "height":500,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d3a34c8a-f5ed-4d11-8fbf-b34c31e5448c","blendMode":0,"displayName":"default","isLocked":false,"name":"d3a34c8a-f5ed-4d11-8fbf-b34c31e5448c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":500,
 }
