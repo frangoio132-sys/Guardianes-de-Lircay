@@ -5,6 +5,7 @@ t_saved_positions = ds_list_create()
 a_saved_positions = ds_list_create()
 saved_posx = x
 saved_posy = y
+saved_health = 5
 Player = 0
 
 Page_image = inst_A1D5957
@@ -38,7 +39,7 @@ save = function(xx, yy){
 	
 	saved_posx = xx
 	saved_posy = yy
-	
+	saved_health = Player.vida
 	ds_list_clear(t_saved_positions)
 	for (var i = 0; instance_number(Tijereta) > i;i++){
 		ds_list_add(t_saved_positions, {tx : instance_find(Tijereta, i).x, 
@@ -78,6 +79,10 @@ load = function(){
 	
 	Player.x = saved_posx
 	Player.y = saved_posy
+	Player.vida = saved_health
+	if Player.object_index == Juan{
+		Player.state = Player.stateFree
+	}
 	update_pause()
 	
 }

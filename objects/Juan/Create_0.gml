@@ -7,6 +7,8 @@ air_friction  = 0.01
 air_SPEED = 9
 floor_SPEED = 2
 
+vida = 5
+
 key_right =  (keyboard_check(vk_right) or keyboard_check(ord("D")))
 key_left  =  (keyboard_check(vk_left) or keyboard_check(ord("A")))
 
@@ -29,7 +31,14 @@ Get_Hit = function(){
 	image_index = 0
 	sprite_index = Juan_Hit
 	alarm_set(0, 10)
-	state = stateHit
+	vida--
+	if 0 >= vida {
+		image_index = 0
+		sprite_index = Juan_dead
+		state = stateDead
+	}else{
+		state = stateHit
+	}
 }
 
 Aplicar_gravedad = function(){
@@ -261,6 +270,20 @@ stateAirAttack = function(){ // Falta hacer que haga el motion input y yaaa
 
 stateHit = function(){
 	Aplicar_gravedad()
+}
+
+stateDead = function(){
+	Aplicar_gravedad()
+	if is_on_floor{
+		vel_x = lerp(vel_x, 0, 0.2)
+	}
+	if instance_place(x, y-30, Agua){
+		vel_y = lerp(vel_y, -2, 0.2)
+	}else{
+		vel_y = lerp(vel_y, 0, 0.4)
+	}
+	
+
 }
 state =  stateFree
 

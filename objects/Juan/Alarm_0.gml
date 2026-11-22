@@ -1,3 +1,5 @@
-image_index = 0
-sprite_index = Juan_idle
-state = stateFree
+if vida > 0{
+	image_index = 0
+	sprite_index = Juan_idle
+	state = stateFree
+}
