@@ -82,6 +82,7 @@
     {"id":{"name":"Diario_page_2","path":"sprites/Diario_page_2/Diario_page_2.yy",},},
     {"id":{"name":"Diario_page_3","path":"sprites/Diario_page_3/Diario_page_3.yy",},},
     {"id":{"name":"Diario_sprite","path":"sprites/Diario_sprite/Diario_sprite.yy",},},
+    {"id":{"name":"HugoJump","path":"sprites/HugoJump/HugoJump.yy",},},
     {"id":{"name":"HugoRun","path":"sprites/HugoRun/HugoRun.yy",},},
     {"id":{"name":"HugoStand","path":"sprites/HugoStand/HugoStand.yy",},},
     {"id":{"name":"Juan_Air_attack_side","path":"sprites/Juan_Air_attack_side/Juan_Air_attack_side.yy",},},
@@ -126,8 +127,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
