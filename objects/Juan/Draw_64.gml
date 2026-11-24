@@ -11,3 +11,14 @@ if state == stateFree {
 	}
 
 }
+
+for (var  i = 0; i < vida_max;i++){
+	if i < vida {
+	
+		draw_sprite(caparaso, 1, 60 + i*60, 50)
+	}
+	else{
+		draw_sprite(caparaso_no, 0, 60 + i*60, 50)
+	}
+	
+}

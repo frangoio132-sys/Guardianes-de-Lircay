@@ -8,6 +8,7 @@ air_SPEED = 9
 floor_SPEED = 2
 
 vida = 5
+vida_max = 5
 
 key_right =  (keyboard_check(vk_right) or keyboard_check(ord("D")))
 key_left  =  (keyboard_check(vk_left) or keyboard_check(ord("A")))

@@ -12,14 +12,17 @@ Page_image = inst_A1D5957
 Page_index = 0
 //crear el diario con todas las paginas
 Diario = ds_list_create()
-ds_list_add(Diario, Diario_page_0, Diario_page_1, Diario_page_2, Diario_page_3)
-
 if instance_exists(Juan){
 	Player = instance_find(Juan , 0)
+	ds_list_add(Diario, Diario_page_Juan)
 }
 if instance_exists(Hugo){
 	Player = instance_find(Hugo , 0)
+	ds_list_add(Diario, Diario_page_0)
 }
+ds_list_add(Diario, Diario_page_1, Diario_page_2, Diario_page_3)
+
+
 
 next_page = function(){
 	if ds_list_size(Player.Pages)-1 > Page_index {
