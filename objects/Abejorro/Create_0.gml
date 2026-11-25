@@ -45,7 +45,7 @@ stateFollow = function(){
 	}else{
 		// no se como explicar esto
 		// es para que se vaya alineando antes de dar un golpe
-		vel_x = lerp(vel_x, -SPEED/3*(target.x-x)/point_distance(x, y, target.x, target.y), 0.04)
+		vel_x = lerp(vel_x, -SPEED/1.6*(target.x-x)/point_distance(x, y, target.x, target.y), 0.05)
 		vel_y = lerp(vel_y, sign(target.y-y), 0.02)
 	}
 	if place_free(x+vel_x, y){
