@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+    "name":"Diario_sprite",
+    "path":"sprites/Diario_sprite/Diario_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

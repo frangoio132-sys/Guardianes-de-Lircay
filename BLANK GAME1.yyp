@@ -115,6 +115,7 @@
     {"id":{"name":"caparaso_no","path":"sprites/caparaso_no/caparaso_no.yy",},},
     {"id":{"name":"caparaso","path":"sprites/caparaso/caparaso.yy",},},
     {"id":{"name":"Colision_Hugo","path":"sprites/Colision_Hugo/Colision_Hugo.yy",},},
+    {"id":{"name":"dialogue_bubble_sprite","path":"sprites/dialogue_bubble_sprite/dialogue_bubble_sprite.yy",},},
     {"id":{"name":"Diario_page_0","path":"sprites/Diario_page_0/Diario_page_0.yy",},},
     {"id":{"name":"Diario_page_1","path":"sprites/Diario_page_1/Diario_page_1.yy",},},
     {"id":{"name":"Diario_page_2","path":"sprites/Diario_page_2/Diario_page_2.yy",},},
