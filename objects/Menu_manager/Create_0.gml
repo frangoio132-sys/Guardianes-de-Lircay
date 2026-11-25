@@ -14,13 +14,11 @@ Page_index = 0
 Diario = ds_list_create()
 if instance_exists(Juan){
 	Player = instance_find(Juan , 0)
-	ds_list_add(Diario, Diario_page_Juan)
 }
 if instance_exists(Hugo){
 	Player = instance_find(Hugo , 0)
-	ds_list_add(Diario, Diario_page_0)
 }
-ds_list_add(Diario, Diario_page_1, Diario_page_2, Diario_page_3)
+ds_list_add(Diario, Diario_page_0, Diario_page_1_Juan, Diario_page_2_Hugo, Diario_page_3_tijereta, Diario_page_4)
 
 
 

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Diario_page_Hugo",
+  "%Name":"Diario_page_2_Hugo",
   "bboxMode":0,
   "bbox_bottom":893,
   "bbox_left":27,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"a5b026de-9353-4b6b-942c-d9a37e8cbc7f","blendMode":0,"displayName":"default","isLocked":false,"name":"a5b026de-9353-4b6b-942c-d9a37e8cbc7f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Diario_page_Hugo",
+  "name":"Diario_page_2_Hugo",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Diario_page_Hugo",
+    "%Name":"Diario_page_2_Hugo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Diario_page_Hugo",
+    "name":"Diario_page_2_Hugo",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5163ae27-75b9-4cc6-bd6e-d845c3f94704","path":"sprites/Diario_page_Hugo/Diario_page_Hugo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5163ae27-75b9-4cc6-bd6e-d845c3f94704","path":"sprites/Diario_page_2_Hugo/Diario_page_2_Hugo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d972cb2c-cb42-419c-a04c-0d5e5ac60b56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

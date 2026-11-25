@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Diario_page_1",
+  "%Name":"Diario_page_1_Juan",
   "bboxMode":0,
-  "bbox_bottom":191,
-  "bbox_left":0,
-  "bbox_right":383,
-  "bbox_top":0,
+  "bbox_bottom":893,
+  "bbox_left":27,
+  "bbox_right":1437,
+  "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"25a687c8-7921-4bb6-92d8-e1f4369d4f97","name":"25a687c8-7921-4bb6-92d8-e1f4369d4f97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b28e01d6-1f64-4e5f-9b92-9ac97b0619af","name":"b28e01d6-1f64-4e5f-9b92-9ac97b0619af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":900,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"44fcfb91-af88-422f-9fc8-f0bf9368666c","blendMode":0,"displayName":"default","isLocked":false,"name":"44fcfb91-af88-422f-9fc8-f0bf9368666c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d985e8fd-cf27-4530-9808-00f76a49bf94","blendMode":0,"displayName":"default","isLocked":false,"name":"d985e8fd-cf27-4530-9808-00f76a49bf94","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Diario_page_1",
+  "name":"Diario_page_1_Juan",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Diario_page_0",
+    "%Name":"Diario_page_1_Juan",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Diario_page_0",
+    "name":"Diario_page_1_Juan",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25a687c8-7921-4bb6-92d8-e1f4369d4f97","path":"sprites/Diario_page_1/Diario_page_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6f94f24d-e306-4977-b572-6d3ad24740e6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b28e01d6-1f64-4e5f-9b92-9ac97b0619af","path":"sprites/Diario_page_1_Juan/Diario_page_1_Juan.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"48033678-d33d-4397-8494-ff04b121a752","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":384,
+  "width":1500,
 }

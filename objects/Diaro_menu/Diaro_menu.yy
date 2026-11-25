@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Diario_page_Juan",
-    "path":"sprites/Diario_page_Juan/Diario_page_Juan.yy",
+    "name":"Diario_page_0",
+    "path":"sprites/Diario_page_0/Diario_page_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,
