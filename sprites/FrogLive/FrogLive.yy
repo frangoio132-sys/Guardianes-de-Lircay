@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"AssetsHugo",
+    "path":"folders/Assets/AssetsHugo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

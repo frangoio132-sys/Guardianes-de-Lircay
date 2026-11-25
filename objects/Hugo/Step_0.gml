@@ -1,5 +1,5 @@
 Gravedad();
-var correr = keyboard_check(vk_right) - keyboard_check(vk_left);
+var correr = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")));
 
 if (correr != 0){
 	if (place_free(x + correr * 4, y)){
@@ -28,4 +28,11 @@ if (suelo == true)
 saltos = 2;
 }
 
-	
+if (!suelo){
+
+if (velY<0){
+sprite_index=HugoJump;
+}else if (velY>0){
+	sprite_index = HugoFall;
+}
+}

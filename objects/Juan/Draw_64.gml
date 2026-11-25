@@ -1,7 +1,7 @@
 if state == stateFree {
 	
 	if 50 > distance_to_object(Savep) { // interactuar con el checkpopint y decirle al menumanager que guarde
-		draw_text(800, 550, "Press 'E' to save")
+		draw_text(800, 550, "Presiona E para Guardar")
 		if keyboard_check_pressed(ord("E")) and vida > 0{
 			Menu_manager.save(x, y)
 		}
