@@ -2,7 +2,7 @@ grav = 0.4;
 velY = 0.0
 maxVely = 15;
 saltos = 2;
-Hugo.vida=5;
+vida=5;
 
 Pages = ds_list_create()
 ds_list_add(Pages, 0)
