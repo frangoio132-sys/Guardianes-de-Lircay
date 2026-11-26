@@ -9,8 +9,8 @@ if instance_exists(Juan){
 	ds_list_add(dialogue, "Oh? ", "no esperaba ver a una criatura como tu salir de ese agujero", "y veo que has encontrado las paginas que habia perdido", "MHAHA, ya veo porque dicen que ustedes traen buena suerte", "Hmm? te interesa lo que hay en esas viejas hojas?", "puedes quedartelas si quieres, talvez encuentres mas por ahi tiradas")
 }
 if instance_exists(Hugo){
-	// aqui poner el dialogo que le va a decir a hugo
-	ds_list_add(dialogue, "vaya, ", "ppppp ppppppp pppppppppp pppppppppp ppppppp pppppss ssssss sssss sssssssssss sssssss", "aaaaaaaaaa aaaa aaaa aaaa aaa")
+	
+	ds_list_add(dialogue, "Pequeña rana, ", "Intentas con todas tus fuerzas eliminar a los invasores,", "Recolecta unas páginas por mí, así lograras entender el problema al que te enfrentas,");
 }
 
 near = function(){
