@@ -10,8 +10,8 @@
   "name":"Button_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Menus",
+    "path":"folders/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,

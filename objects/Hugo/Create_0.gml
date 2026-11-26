@@ -4,6 +4,8 @@ maxVely = 15;
 saltos = 2;
 vida=5;
 vida_max=5;
+Escudo = true;
+
 Pages = ds_list_create()
 ds_list_add(Pages, 0)
 	
@@ -26,5 +28,11 @@ Gravedad = function(){
 }
 
 Get_Hit = function(){
+if (Escudo){
+Escudo = false;	
+}else{
 vida--;
 }
+}
+Enemies = ds_list_create();
+ds_list_add(Enemies, Tijereta, Abejorro);

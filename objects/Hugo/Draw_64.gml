@@ -22,3 +22,7 @@ for (var  i = 0; i < vida_max;i++){
 	}
 	
 }
+
+if (Escudo){
+draw_sprite(FrogHeart,1, 60 * (vida_max + 1), 50);
+};

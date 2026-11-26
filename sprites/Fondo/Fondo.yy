@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Terreno",
+    "path":"folders/Assets/Terreno.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

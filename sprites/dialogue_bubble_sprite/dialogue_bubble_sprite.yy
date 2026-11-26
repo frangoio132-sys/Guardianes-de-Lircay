@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Menus",
+    "path":"folders/Menus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

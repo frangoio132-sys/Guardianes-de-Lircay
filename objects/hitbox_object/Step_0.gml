@@ -5,7 +5,8 @@
 
 if !instance_exists(owner){
 	instance_destroy()
-}else{
+}else if(owner.object_index != Hugo){
+	
 	if (owner.state == owner.stateHit){
 		instance_destroy()
 	}
