@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Comic_sans",
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Fuentes",
+    "path":"folders/Fuentes.yy",
   },
   "pointRounding":0,
   "ranges":[
