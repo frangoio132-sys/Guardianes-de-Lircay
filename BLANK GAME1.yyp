@@ -129,6 +129,7 @@
     {"id":{"name":"FrogHeart","path":"sprites/FrogHeart/FrogHeart.yy",},},
     {"id":{"name":"FrogLive","path":"sprites/FrogLive/FrogLive.yy",},},
     {"id":{"name":"HugoAttack","path":"sprites/HugoAttack/HugoAttack.yy",},},
+    {"id":{"name":"HugoDead","path":"sprites/HugoDead/HugoDead.yy",},},
     {"id":{"name":"HugoFall","path":"sprites/HugoFall/HugoFall.yy",},},
     {"id":{"name":"HugoHitbox","path":"sprites/HugoHitbox/HugoHitbox.yy",},},
     {"id":{"name":"HugoJump","path":"sprites/HugoJump/HugoJump.yy",},},
