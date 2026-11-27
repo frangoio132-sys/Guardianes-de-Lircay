@@ -21,4 +21,18 @@ switch button_id{
 	case 5: //pagina anterior
 		Menu_manager.last_page()
 		break;
+	case 6: //Nivel Hugo
+		room_goto(RoomLvl2)
+		break;
+	case 7: //Nivel Juan
+		room_goto(Room1)
+		break;
+	case 8: // Salir
+		game_end()
+		break;
+	case 9: //Nivel Hugo
+		room_goto(Inicio)
+		Menu_manager.paused = false
+        Menu_manager.update_pause()
+		break;
 }

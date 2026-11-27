@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Comic_sans",
   "parent":{
-    "name":"Fuentes",
-    "path":"folders/Fuentes.yy",
+    "name":"Menus",
+    "path":"folders/Menus.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -68,6 +68,7 @@
     {"id":{"name":"Parallax_obj","path":"objects/Parallax_obj/Parallax_obj.yy",},},
     {"id":{"name":"Savep","path":"objects/Savep/Savep.yy",},},
     {"id":{"name":"Tijereta","path":"objects/Tijereta/Tijereta.yy",},},
+    {"id":{"name":"Inicio","path":"rooms/Inicio/Inicio.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
@@ -181,8 +182,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
+    {"roomId":{"name":"Inicio","path":"rooms/Inicio/Inicio.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomLvl2","path":"rooms/RoomLvl2/RoomLvl2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
