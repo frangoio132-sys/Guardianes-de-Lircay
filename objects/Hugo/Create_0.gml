@@ -5,6 +5,7 @@ saltos = 2;
 vida=5;
 vida_max=5;
 Escudo = true;
+alive=true;
 
 Pages = ds_list_create()
 ds_list_add(Pages, 0)
@@ -32,6 +33,11 @@ if (Escudo){
 Escudo = false;	
 }else{
 vida--;
+}
+if(vida<=0){
+alive = false;
+sprite_index = HugoDead;
+alarm_set(0,60);
 }
 }
 Enemies = ds_list_create();

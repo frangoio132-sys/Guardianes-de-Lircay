@@ -1,6 +1,8 @@
 Gravedad();
+
 var correr = (keyboard_check(vk_right) or keyboard_check(ord("D"))) - (keyboard_check(vk_left) or keyboard_check(ord("A")));
 suelo = place_meeting(x, y+1, Obj_Tiles) and velY >= 0;
+if (alive){
 if (sprite_index != HugoAttack)
 {
 	
@@ -54,4 +56,5 @@ if correr != 0{
 		image_xscale = other.image_xscale
 						
 	}
+}
 }
